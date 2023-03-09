@@ -31,7 +31,7 @@ public class SimpleRestController {
     public RedirectView redirectWithUsingRedirectViewSimpleClassRest(RedirectAttributes attributes){
         attributes.addFlashAttribute("flashAttribute", "redirectWithRedirectView");
         attributes.addAttribute("attribute", "redirectWithRedirectView");
-        return new RedirectView("getSimpleClassRest");
+        return new RedirectView("/getSimpleClassRest");
     }
 
     //Перенаправление на стороне клиента - используется в частности для переход на внешние сайты. и повторная отправка ответов.

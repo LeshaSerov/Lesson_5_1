@@ -1,11 +1,11 @@
 package com.example.lesson_5_1.domain;
 
-import io.micrometer.common.lang.NonNullApi;
 import lombok.*;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+//@EqualsAndHashCode
 public class SimpleClass {
     String str = "None";
 }
